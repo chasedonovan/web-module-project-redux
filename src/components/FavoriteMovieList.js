@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 import {connect} from 'react-redux'
-import {toggleFavorites} from '../actions/movieActions'
 import {removeFavorites} from '../actions/movieActions'
 const FavoriteMovieList = (props) =>{
     const favorites = props.favorites;
